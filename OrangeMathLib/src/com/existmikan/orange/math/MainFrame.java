@@ -9,17 +9,17 @@ public class MainFrame extends JFrame {
 
 	public MainFrame() {
 		setTitle("Canvas_test");
-		setBounds(0, 0, 480, 380);
+		setBounds(0, 0, 900, 740);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setResizable(false);
 		setLayout(null);
 		JPanel cp = new JPanel();
 		cp.setLayout(null);
 		add(cp);
-		cp.setBounds(38, 20, 400, 300);
+		cp.setBounds(38, 20, 860, 600);
 		MainCanvas canvas = new MainCanvas();
 		cp.add(canvas);
-		canvas.setBounds(0, 0, 400, 300);
+		canvas.setBounds(0, 0, 860, 600);
 		setVisible(true);
 	}
 
